@@ -86,7 +86,6 @@ body {
     flex-direction: column;
     justify-content: center;   /* ✅ vertically center */
     align-items: center;       /* ✅ horizontally center (optional) */
-
 }
 
 .home-content h1 {
@@ -446,13 +445,12 @@ body {
         background-color: #000;
     }
     #Project h3 {
-        font-size: 2vw;
         color: #0ef;
         margin-top: 1.5vw;
     }
     #Project p{
         line-height: 2;
-        font-family: 1.5vw;
+        font-size: 1.5vw;
     }
     #Project p span{
         color: #0ef;
@@ -801,18 +799,21 @@ body {
 }
 
 @media (max-width: 900px) {
-    .b
     .header{
         display:block;
+        padding-left: 3VW;
     }
     .logo {
         position: relative;
         font-weight: 500;
-        text-align: center;
+        font-size: 4.5VW;
     }
     .logo::after{
         content: "\a";
         white-space: pre;
+    }
+    .navbar a{
+        font-size: 3.5vw;
     }
    .navbar a:nth-of-type(1) {
      margin-left: 0px;
@@ -832,12 +833,22 @@ body {
         min-height: auto;
         position: relative;
         background-color: #000;
+        margin-top: 3vw;
     }
 
     .home-content {
         max-width: 100%;
         text-align: center;
         padding-left: 0;
+    }
+    .home-content h3,.home-content h4, .home-content h4 span,.home-content a{
+        font-size: 3.5vw;
+        font-weight: normal;
+    }
+    .owner-img {
+        width: 25vw;
+        height: 25vw;
+        margin-bottom: 2vw;
     }
 
     .btn-box {
@@ -885,7 +896,19 @@ body {
         text-align: center;
         width: 100%;
     }
-
+    .about-text h2, .services-section h2, #Project h2, .contact-text h2, .service-item h3 {
+        font-size: 4.5vw;
+    }
+    .about-text p,.about-text p span, .service-item p, .projectP, .contact-text h4,#Gmail,#Project p,#Project h3,#Project p span,.navbarproject a,.contact-list li,.contact-list li a{
+        font-size: 3.5vw;
+    }
+    .about-text p span {
+        color: #14ff08;
+        font-size: 3.6vw;
+    }
+    .contact-icons i,.top i,.DownloadDiv a {
+        font-size: 2.8vw; /* বা px দিয়ে যেমন: 24px */
+    }
 
     .about-img::before {
         left: 50%;
@@ -907,13 +930,7 @@ body {
     #Project {
         padding: 2% 2%;
     }
-    #Project p{
-        font-size: 1.5vw;
-    }
-    #Project p span{
-        font-size: 1.7vw;
-    } 
-    
+   
     /* Contact */
     .contacts {
         background-color: #000;
@@ -924,9 +941,13 @@ body {
         height: 40vw;
     }
 
+    .contact-icons i {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+
     .service-item h3 {
         margin: .5vw 0 1vw;
-        font-size: 1.5vw;
         color: #007bff;
     }
     .service-item P {
@@ -1027,9 +1048,6 @@ body {
     .about-text {
         width: 100%;
     }
-    .about-text p {
-        font-size: 1.5vw;
-    }
     /* Service */
      .services-grid {
         grid-template-columns: 1fr;
@@ -1048,12 +1066,6 @@ body {
     }
 
     /* Project */
-    #Project p{
-        font-size: 1.5vw;
-    }
-    #Project p span{
-        font-size: 1.7vw;
-    } 
 
     /* Service */
     .services-grid {
@@ -1159,13 +1171,9 @@ body {
         width: 100%;
         margin: 0;
     }
-    .about-text p {
-        font-size: 1.5vw;
-    }
 
     /* Service */
     .sub-title {
-    font-size: 30px;
     padding-bottom: 15px;
   }
 }
