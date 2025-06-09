@@ -74,7 +74,7 @@ body {
     width: 100%;
     min-height: 10vh;
     margin-top: 7vw;
-    background-color: rgb(243, 17, 17);
+    background-color: #000;
     display: flex;
     align-items: center;
 }
