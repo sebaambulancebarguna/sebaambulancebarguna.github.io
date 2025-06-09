@@ -72,14 +72,15 @@ body {
 
 .home {
     width: 100%;
-    min-height: 100vh;
-    background-color: rgb(0, 0, 0);
+    min-height: 10vh;
+    margin-top: 7vw;
+    background-color: rgb(243, 17, 17);
     display: flex;
+    align-items: center;
 }
 
 .home-content {
     max-width: 50%;
-    background-color: #000;
     display: flex;
     padding-left: 4vw;
     flex-direction: column;
@@ -140,7 +141,7 @@ body {
 }
 .floating-call-button {
       position: fixed;
-      bottom: 4vh;
+      bottom: 3vh;
       right: 1.7vw;
       background-color: #28a745;
       color: white;
@@ -843,6 +844,9 @@ body {
         padding: 1vw 2vw;
         border-radius: 1vw;
         font-size: 1.5vw;
+    }
+    .floating-call-button {
+        bottom: 2vw;
     }
 
     .img {
