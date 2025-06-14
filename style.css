@@ -720,7 +720,7 @@ body {
 .top{
     position: fixed;
     bottom: 2vw;
-    left: 1vw;
+    left: 2vw;
     display: flex;
     opacity: 0;
     transition: all .4s;
