@@ -904,7 +904,7 @@ body {
         padding-left: 0;
     }
     .home-content h3,.home-content h4, .home-content h4 span,.home-content a{
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         font-weight: normal;
     }
     .owner-img {
@@ -958,7 +958,7 @@ body {
         text-align: center;
         width: 100%;
     }
-    .about-text h2, .services-section h2, #Project h2, .contact-text h2, .service-item h3, .Traning-Section h2 {
+    .header a,.about-text h2, .services-section h2, #Project h2, .contact-text h2, .service-item h3, .Traning-Section h2 {
         font-size: 5.5vw;
     }
     .about-text p,.about-text p span, .service-item p, .projectP, .contact-text h4,#Gmail,#Project p,#Project h3,#Project p span,.navbarproject a,.contact-list li,.contact-list li a, .textcontrainer p{
